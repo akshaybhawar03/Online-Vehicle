@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <path d="M100,400 C100,400 150,300 350,300 C550,300 600,400 600,400 L650,400 C650,400 700,400 700,425 C700,450 650,450 650,450 L600,450 C600,450 550,500 350,500 C150,500 100,450 100,450 L50,450 C50,450 0,450 0,425 C0,400 50,400 50,400 L100,400 Z" fill="#8e44ad"/>
+  <circle cx="200" cy="450" r="50" fill="#333"/>
+  <circle cx="200" cy="450" r="25" fill="#666"/>
+  <circle cx="500" cy="450" r="50" fill="#333"/>
+  <circle cx="500" cy="450" r="25" fill="#666"/>
+  <rect x="200" y="325" width="300" height="125" fill="#9b59b6"/>
+  <rect x="250" y="350" width="200" height="50" fill="#ccc"/>
+  <text x="400" y="250" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Ford Explorer</text>
+</svg>

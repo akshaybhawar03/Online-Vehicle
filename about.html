@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Car Rental System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Car Rental System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cars.html">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sell-car.html">Sell Your Car</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- Login/Register links (shown when user is not logged in) -->
+                    <li class="nav-item login-register-links">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item login-register-links">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <!-- User dropdown (shown when user is logged in) -->
+                    <li class="nav-item dropdown user-dropdown d-none">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user-circle me-1"></i> <span id="user-name">User</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="user-dashboard.html">My Dashboard</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="logout()">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="about-section">
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <h1>About Our Car Rental Service</h1>
+                    <p class="lead">We are dedicated to providing high-quality car rental services at affordable prices.</p>
+                    <p>Founded in 2010, our car rental service has grown to become one of the most trusted names in the industry. We started with just 5 cars and now have a fleet of over 100 vehicles ranging from economy to luxury models.</p>
+                    <p>Our mission is to make car rental easy, affordable, and hassle-free for our customers. We believe in transparency, quality service, and customer satisfaction.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/about-us.jpg" alt="About Us" class="img-fluid rounded">
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">Our Values</h2>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-star fa-3x mb-3 text-primary"></i>
+                            <h3 class="card-title">Quality</h3>
+                            <p class="card-text">We maintain our vehicles to the highest standards to ensure safety and comfort.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-handshake fa-3x mb-3 text-primary"></i>
+                            <h3 class="card-title">Integrity</h3>
+                            <p class="card-text">We believe in honest pricing and transparent policies with no hidden fees.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                            <h3 class="card-title">Customer Focus</h3>
+                            <p class="card-text">Our customers are at the heart of everything we do. We strive to exceed expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">Our Team</h2>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="team-member">
+                        <img src="images/team1.jpg" alt="Team Member 1">
+                        <h3>John Smith</h3>
+                        <p class="text-muted">CEO & Founder</p>
+                        <p>John has over 20 years of experience in the car rental industry.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="team-member">
+                        <img src="images/team2.jpg" alt="Team Member 2">
+                        <h3>Sarah Johnson</h3>
+                        <p class="text-muted">Operations Manager</p>
+                        <p>Sarah ensures that all our operations run smoothly and efficiently.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="team-member">
+                        <img src="images/team3.jpg" alt="Team Member 3">
+                        <h3>Michael Brown</h3>
+                        <p class="text-muted">Fleet Manager</p>
+                        <p>Michael oversees our entire fleet and ensures all vehicles are well-maintained.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="team-member">
+                        <img src="images/team4.jpg" alt="Team Member 4">
+                        <h3>Emily Davis</h3>
+                        <p class="text-muted">Customer Service</p>
+                        <p>Emily leads our customer service team and ensures client satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">Our History</h2>
+                    <div class="timeline">
+                        <div class="row mb-4">
+                            <div class="col-md-6 offset-md-0 col-lg-4 offset-lg-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>2010</h4>
+                                        <p>Founded with a small fleet of 5 cars in a single location.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-md-6 offset-md-6 col-lg-4 offset-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>2015</h4>
+                                        <p>Expanded to 3 locations with a fleet of 50 cars.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-md-6 offset-md-0 col-lg-4 offset-lg-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>2020</h4>
+                                        <p>Launched our online booking system and mobile app.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 offset-md-6 col-lg-4 offset-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>2023</h4>
+                                        <p>Now operating in 10 locations with over 100 vehicles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h4>Car Rental System</h4>
+                    <p>Your trusted partner for car rentals. We provide quality vehicles at affordable prices.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="cars.html" class="text-white">Cars</a></li>
+                        <li><a href="booking.html" class="text-white">Book Now</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h4>Contact Us</h4>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> 123 Main Street, City, Country</p>
+                        <p><i class="fas fa-phone me-2"></i> +1 234 567 890</p>
+                        <p><i class="fas fa-envelope me-2"></i> info@carrentalsystem.com</p>
+                    </address>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2023 Car Rental System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

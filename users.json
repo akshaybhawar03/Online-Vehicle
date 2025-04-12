@@ -1,0 +1,62 @@
+[
+  {
+    "id": "admin123",
+    "name": "Admin User",
+    "email": "admin@carrentalsystem.com",
+    "phone": "123-456-7890",
+    "password": "admin123",
+    "isAdmin": true,
+    "createdAt": "2023-01-01T00:00:00.000Z",
+    "bookings": []
+  },
+  {
+    "id": "user1",
+    "name": "John Smith",
+    "email": "john@example.com",
+    "phone": "555-123-4567",
+    "password": "password123",
+    "isAdmin": false,
+    "createdAt": "2023-06-15T10:30:00.000Z",
+    "bookings": ["BK001"]
+  },
+  {
+    "id": "user2",
+    "name": "Sarah Johnson",
+    "email": "sarah@example.com",
+    "phone": "555-987-6543",
+    "password": "password123",
+    "isAdmin": false,
+    "createdAt": "2023-06-20T14:45:00.000Z",
+    "bookings": ["BK002"]
+  },
+  {
+    "id": "user3",
+    "name": "Michael Brown",
+    "email": "michael@example.com",
+    "phone": "555-456-7890",
+    "password": "password123",
+    "isAdmin": false,
+    "createdAt": "2023-07-05T09:15:00.000Z",
+    "bookings": ["BK003"]
+  },
+  {
+    "id": "user4",
+    "name": "Emily Davis",
+    "email": "emily@example.com",
+    "phone": "555-789-0123",
+    "password": "password123",
+    "isAdmin": false,
+    "createdAt": "2023-07-10T16:20:00.000Z",
+    "bookings": ["BK004"]
+  },
+  {
+    "id": "user5",
+    "name": "David Wilson",
+    "email": "david@example.com",
+    "phone": "555-234-5678",
+    "password": "password123",
+    "isAdmin": false,
+    "createdAt": "2023-07-12T11:10:00.000Z",
+    "bookings": ["BK005"]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "BK001",
+    "userId": "user1",
+    "carId": "toyota-camry",
+    "pickupDate": "2023-07-15",
+    "returnDate": "2023-07-18",
+    "status": "completed",
+    "totalAmount": 150,
+    "paymentStatus": "paid",
+    "createdAt": "2023-07-10T09:30:00.000Z"
+  },
+  {
+    "id": "BK002",
+    "userId": "user2",
+    "carId": "honda-crv",
+    "pickupDate": "2023-07-20",
+    "returnDate": "2023-07-25",
+    "status": "active",
+    "totalAmount": 325,
+    "paymentStatus": "paid",
+    "createdAt": "2023-07-15T14:20:00.000Z"
+  },
+  {
+    "id": "BK003",
+    "userId": "user3",
+    "carId": "bmw-3-series",
+    "pickupDate": "2023-07-22",
+    "returnDate": "2023-07-24",
+    "status": "pending",
+    "totalAmount": 170,
+    "paymentStatus": "pending",
+    "createdAt": "2023-07-18T11:45:00.000Z"
+  },
+  {
+    "id": "BK004",
+    "userId": "user4",
+    "carId": "toyota-corolla",
+    "pickupDate": "2023-07-25",
+    "returnDate": "2023-07-28",
+    "status": "reserved",
+    "totalAmount": 120,
+    "paymentStatus": "paid",
+    "createdAt": "2023-07-20T16:30:00.000Z"
+  },
+  {
+    "id": "BK005",
+    "userId": "user5",
+    "carId": "mercedes-e-class",
+    "pickupDate": "2023-07-18",
+    "returnDate": "2023-07-20",
+    "status": "completed",
+    "totalAmount": 240,
+    "paymentStatus": "paid",
+    "createdAt": "2023-07-15T10:15:00.000Z"
+  }
+]
